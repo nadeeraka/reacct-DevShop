@@ -1,5 +1,12 @@
 import React from "react";
+import { directive } from "@babel/types";
 
-const Products = () => <h1>products gose hear</h1>;
+const Products = ({ name, price, model }) => (
+  <div>
+    <h3>{name}</h3>
+    <p>{model}</p>
+    <p>{price}</p>
+  </div>
+);
 
 export default Products;

@@ -30,6 +30,8 @@ export const DataProvider = props => {
     }
   ]);
   return (
-    <DataContext.Provider value={"pp"}>{props.children}</DataContext.Provider>
+    <DataContext.Provider value={[Data, setData]}>
+      {props.children}
+    </DataContext.Provider>
   );
 };
