@@ -8,25 +8,27 @@ export const DataProvider = props => {
       id: 2343,
       name: "Dell",
       model: "i5 3000 series",
-      price: "$300"
+      price: "300",
+      img: "../dist/img/delljfif.jfif"
     },
     {
       id: 2344,
       name: "HP",
       model: "i3 A series",
-      price: "$200"
+      price: "200",
+      img: "../dist/img/hp.png"
     },
     {
       id: 2345,
       name: "Intel",
       model: "i7 ",
-      price: "$700"
+      price: "700"
     },
     {
       id: 2346,
       name: "Sony",
       model: "i5 VIAO series",
-      price: "$500"
+      price: "500"
     }
   ]);
   return (
