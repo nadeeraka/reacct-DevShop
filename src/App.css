@@ -8,7 +8,6 @@ li {
 .rm {
   width: 18rem;
 }
-
-ul {
+.main {
   display: flex;
 }
